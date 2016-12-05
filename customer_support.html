@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Support</title>
+        <link href ="style.css" type="text/css" rel="stylesheet" />
+    </head>
+    
+    <body>
+    <div id="display">
+        <div id="thankyou">Thank you for your concerns!
+            <button id="ok">OK</button>
+        </div>
+            <ul>
+                <li><a href="homepage.html" class="nonactive">Home</a></li>
+                <li><a href="default.asp" class="nonactive">About Us</a></li>
+                <li><a href="customer_support.html" class="active">Customer Support</a></li>
+                <li><a href="contact.asp" class="nonactive">FAQ</a></li>
+                <li><a href="about.asp" class="nonactive">Store</a></li>
+            </ul>
+        <div id="cusImage"></div>
+        <div id="cusBody">
+            <div id="msgCol">
+                <div id="cusTitle">Tell us your concerns/questions</div>
+                <input type="text" placeholder="Name" id="nameInput" class="sm_inputBox" />
+                <input type="text" placeholder="Email Address" id="emailInput" class="sm_inputBox" />
+                <input type="text" placeholder="Subject" id="subjectInput" class="sm_inputBox" />
+                <textarea rows="4" cols="50" id="msgInput">Enter your message</textarea>
+
+                <button id="submit_But">Submit </button>
+                <div id="errorMsg"></div>
+            </div>
+            
+            <div id="footer">
+                <a href ="cust.html" id="custlink">Customer Support</a>
+                <a href ="about.html" id="aboutlink">About Us</a>
+                <a href ="faq.html" id="faqlink">FAQ</a>
+                <img id="socialMedia" src="social_media.png" />
+            </div>
+            
+        </div>
+        
+    
+    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        
+    <script src="js.js"></script> 
+    </body>
+    <script> 
+        var submitBut = document.getElementById("submit_But");
+        var ok = document.getElementById("ok");
+        
+        var eRegEx = /^[a-zA-Z0-9\-_\.]{3,20}@[a-zA-Z0-9\-]{3,20}\.(com|ca|info|org)$/;
+        var email = document.getElementById("emailInput");
+        var errorMsg = document.getElementById("errorMsg");
+        
+        var nameInput = document.getElementById("nameInput");
+        
+        
+        submitBut.onclick = function(){
+            thankyou.style.top = '50vh';
+        }
+        
+        ok.onclick = function(){
+            thankyou.style.top = "-10vh";
+        }
+        
+        email.onkeyup = function(){
+            if (eRegEx.test(email.value)== true){
+                email.style.color ="green";
+                errorMsg.innerHTML= "";
+                
+            }else{
+                email.style.color ="red";
+                errorMsg.innerHTML = "Email can only be 3-20 characters long and must end in .com/.ca/.info/.org";
+            }
+        }
+    </script>
+</html>

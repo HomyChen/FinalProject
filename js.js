@@ -19,7 +19,7 @@ $(document).ready(function(){
     
     circle1But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "Product Specification: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur eleifend enim, nec laoreet magna ultrices ut. Aenean eu elit ac velit laoreet convallis. Sed in vehicula ipsum. Duis malesuada mauris a quam gravida, vel efficitur nibh condimentum. Proin interdum massa ipsum, nec porttitor orci aliquet et. Nullam sollicitudin ex eu tincidunt tristique. Nam imperdiet porttitor sem in gravida. Phasellus eu posuere augue. Nam ut enim scelerisque, hendrerit tellus elementum, semper nisi. Ut diam lorem, fermentum nec enim sit amet, sodales porta lorem. Phasellus semper, ipsum a laoreet luctus, arcu ligula sodales leo, ac egestas ante elit vitae urna. Integer vulputate tempor mauris id rhoncus. Nunc mattis eu ligula in mollis.";
+            "<div id='desc_title'>Product Specification</div><p><div id='desc_subtitle'>CONNECTIVITY</div>3G/4G <br> Wi-Fi: 802.11 b/g/n/e (2.4GHz) <br> Bluetooth: v4.1<p><div id='desc_subtitle'>BODY</div>Dimensions 42.5 x 36.4 x 11.4 mm (1.67 x 1.43 x 0.45 in) <br>Weight 52.4 g body (1.83 oz) <p><div id='desc_subtitle'>DISPLAY</div> Type	AMOLED capacitive touchscreen, 16M colors <br> Size	1.65 inches (~55.4% screen-to-body ratio) <br>Resolution	390 x 312 pixels (~303 ppi pixel density) <br>Multi-touch	Yes <br> Protection	Sapphire crystal glass <p><div id='desc_subtitle'>PLATFORM	</div> OS, Tizen <p> CPU	<br> Dual-core 1.0 GHZ <p><div id='desc_subtitle'>MEMORY</div>16 GB Internal Memory ";
         circle1But.src="product_specs_over.png";
     }
     circle1But.onmouseout = function(){
@@ -28,7 +28,7 @@ $(document).ready(function(){
     
     circle2But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "Product Description: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur eleifend enim, nec laoreet magna ultrices ut. Aenean eu elit ac velit laoreet convallis. Sed in vehicula ipsum. Duis malesuada mauris a quam gravida, vel efficitur nibh condimentum. Proin interdum massa ipsum, nec porttitor orci aliquet et. Nullam sollicitudin ex eu tincidunt tristique. Nam imperdiet porttitor sem in gravida. Phasellus eu posuere augue. Nam ut enim scelerisque, hendrerit tellus elementum, semper nisi. Ut diam lorem, fermentum nec enim sit amet, sodales porta lorem. Phasellus semper, ipsum a laoreet luctus, arcu ligula sodales leo, ac egestas ante elit vitae urna. Integer vulputate tempor mauris id rhoncus. Nunc mattis eu ligula in mollis.";
+            "<div id='desc_title'>Product Description</div><div id='desc_text'><p>Our mission statement is to provide people with an affordable fitness tracker to complement their healthy lifestyle. <p>For LookFit, we wanted a watch that is not redundant. <br>A watch that suits your active lifestyle. <br>A watch that is affordable. <p>The main features of LookFit are: Fitness Tracking, Activity Log, and GPS Navigation. <p> Lookfit also offer a wide variety of quality of life conveniences built in, including: <p>-	Notification syncing <br>-	Alarms and reminders <br>-	Music player control <br>-	Answer calls</div>";
         circle2But.src="product_desc_over.png";
     }
     
@@ -37,7 +37,7 @@ $(document).ready(function(){
     }
     circle3But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "Fitness Tracking: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur eleifend enim, nec laoreet magna ultrices ut. Aenean eu elit ac velit laoreet convallis. Sed in vehicula ipsum. Duis malesuada mauris a quam gravida, vel efficitur nibh condimentum. Proin interdum massa ipsum, nec porttitor orci aliquet et. Nullam sollicitudin ex eu tincidunt tristique. Nam imperdiet porttitor sem in gravida. Phasellus eu posuere augue. Nam ut enim scelerisque, hendrerit tellus elementum, semper nisi. Ut diam lorem, fermentum nec enim sit amet, sodales porta lorem. Phasellus semper, ipsum a laoreet luctus, arcu ligula sodales leo, ac egestas ante elit vitae urna. Integer vulputate tempor mauris id rhoncus. Nunc mattis eu ligula in mollis.";
+            "<div id='desc_title'>Fitness Tracking</div><div id='desc_text'> <p>The LookFit watch take in your physical parameters such as height, weight and gender. As you wear it, it will count the number of steps you have taken throughout the day. <p>It display information such as the calories you have burned so far in your exercise, and your heartrate. <p>LookFit is able to predict what activity you are doing (for example, swimming or jogging) based on the data it receives.</div>";
         circle3But.src="fitness_tracking_over.png";
     }
     
@@ -46,7 +46,7 @@ $(document).ready(function(){
     }
     circle4But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "Navigation: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur eleifend enim, nec laoreet magna ultrices ut. Aenean eu elit ac velit laoreet convallis. Sed in vehicula ipsum. Duis malesuada mauris a quam gravida, vel efficitur nibh condimentum. Proin interdum massa ipsum, nec porttitor orci aliquet et. Nullam sollicitudin ex eu tincidunt tristique. Nam imperdiet porttitor sem in gravida. Phasellus eu posuere augue. Nam ut enim scelerisque, hendrerit tellus elementum, semper nisi. Ut diam lorem, fermentum nec enim sit amet, sodales porta lorem. Phasellus semper, ipsum a laoreet luctus, arcu ligula sodales leo, ac egestas ante elit vitae urna. Integer vulputate tempor mauris id rhoncus. Nunc mattis eu ligula in mollis.";
+            "<div id='desc_title'>Navigation</div><div id='desc_text'><p>The LookFit will utilize GPS navigation and display the directions you need to go to get to your destination. <p> Whether you are jogging or cycling, the LookFit GPS system can store and calculate the calories that you would burn if you took a certain route. <p> With this system, you can search for a nearby route you would like to take, based on your fitness goals for the day. Alternatively, you can also customize your own route.</div>";
         circle4But.src="navigation_over.png";
     }
     
@@ -56,16 +56,15 @@ $(document).ready(function(){
     
     circle5But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "Activity Log: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur eleifend enim, nec laoreet magna ultrices ut. Aenean eu elit ac velit laoreet convallis. Sed in vehicula ipsum. Duis malesuada mauris a quam gravida, vel efficitur nibh condimentum. Proin interdum massa ipsum, nec porttitor orci aliquet et. Nullam sollicitudin ex eu tincidunt tristique. Nam imperdiet porttitor sem in gravida. Phasellus eu posuere augue. Nam ut enim scelerisque, hendrerit tellus elementum, semper nisi. Ut diam lorem, fermentum nec enim sit amet, sodales porta lorem. Phasellus semper, ipsum a laoreet luctus, arcu ligula sodales leo, ac egestas ante elit vitae urna. Integer vulputate tempor mauris id rhoncus. Nunc mattis eu ligula in mollis.";
+            "<div id='desc_title'>Activity Log</div><div id='desc_text'><p>The LookFit activity log keep tracks of your physical activity progress. <p>As you do an exercise, for example jogging, the LookFit can save all the fitness data it has collected and store it in the activity log <p>The activity log can then be accessed from your smart phone, and as the months go by, you can keep track of the improvements you have accomplished over time. </div>";
         circle5But.src="calendar_over.png";
     }
     circle5But.onmouseout = function(){
         circle5But.src="calendar.png";
     }
-    
     circle6But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "Testimonial: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur eleifend enim, nec laoreet magna ultrices ut. Aenean eu elit ac velit laoreet convallis. Sed in vehicula ipsum. Duis malesuada mauris a quam gravida, vel efficitur nibh condimentum. Proin interdum massa ipsum, nec porttitor orci aliquet et. Nullam sollicitudin ex eu tincidunt tristique. Nam imperdiet porttitor sem in gravida. Phasellus eu posuere augue. Nam ut enim scelerisque, hendrerit tellus elementum, semper nisi. Ut diam lorem, fermentum nec enim sit amet, sodales porta lorem. Phasellus semper, ipsum a laoreet luctus, arcu ligula sodales leo, ac egestas ante elit vitae urna. Integer vulputate tempor mauris id rhoncus. Nunc mattis eu ligula in mollis.";
+            "<div id='desc_title'>Testimonials</div><img class='profile' src='profile1.jpg' /><div id='profile_text'><p>Luke Chapman <br><q>LookFit make fitness part of your daily routine easy, allowing you to track your own data and integrates with the navigation feature to meet your exercise fitness goals.</div></q><img class='profile' src='profile2.jpg' /><div id='profile_text'><p>Amy Tan <br><q>LookFit made me aware of how much I am exercising and motivates me to exercise more. More importantly the fitness tracker and activity log display accurate information of my progress.</div></q> <img class='profile' src='profile3.jpg' /><div id='profile_text'> Lily Schiller <br> <q>The LookFit is beautifully constructed. It is a solid fitness tracker that meet my physical exercise needs. It is able to send and receive voice calls via a smartphone. LookFit is offered in several stylish colors. </q></div>";
         circle6But.src="testimonials_over.png";
     }
     circle6But.onmouseout = function(){

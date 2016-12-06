@@ -92,6 +92,7 @@ body {
     font-size: 25pt;
     padding: 5px;
     border: 5px orange solid;
+    overflow:scroll;
 }
 
 #watchdisplay{
@@ -174,7 +175,7 @@ a.active:hover{
     text-align:center;
     font-family: Verdana;
     font-family: Verdana;
-    font-size: 25px;
+    font-size: 25pt;
     color: rgb(114, 137, 175);
     top: 10vh;
     margin-bottom: 5vh;

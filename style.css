@@ -292,6 +292,39 @@ li a{
 .active {
     background-color: orange;
 }
+/*infograph titles*, subtitles, desc text,  profile picture*/
+#desc_title{
+    font-family: Verdana;
+    font-size: 25pt;
+    color: rgb(114, 137, 175);
+    
+}
+
+#desc_subtitle{
+    font-family: Verdana;
+    font-size: 16pt;
+    color: orange;
+}
+
+#desc_text{
+    font-size: 16pt;
+}
+
+.profile{
+    width: 12%;
+    height: auto;
+    border-radius: 100%;
+    margin-left:2%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+#profile_text{
+    width: 80%;
+    margin-left:2%;
+    display: inline-block;
+}
+/*end of Iris' Stuff*/
 
 /* Homy's Stuff */
 
@@ -386,4 +419,5 @@ li a{
     font-family: Calibri;
     font-size: 16pt;
 }
+
 

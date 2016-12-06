@@ -293,14 +293,19 @@ li a{
     background-color: orange;
 }
 
+/* Homy's Stuff */
+
 .info2_text {
     position: absolute;
     font-family: Calibri;
-    font-size: 25px;
-    color: darkgray;
+    font-size: 20px;
+    color: grey;
     width: 20%;
     font-weight: bold;
     left: 70%;
+    height: 10%;
+    border-radius: 15px;
+    text-align: center;
 }
 
 #tracker_text {
@@ -321,12 +326,14 @@ li a{
 
 .info2_color {
     position: absolute;
-    left: 14%;
+    left: 9%;
     font-family: Calibri;
     font-size: 25px;
-    color: darkgray;
+    color: grey;
     width: 20%;
     margin-top: 25%;
+    border-radius: 20px;
+    text-align: center;
 }
 
 #colour_options {
@@ -371,6 +378,8 @@ li a{
     width: 14%;
     height: auto;
 }
+
+/* End of Homy's Stuff */
 
 /*contact info bottom page*/
 #contactInfo{

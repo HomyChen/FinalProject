@@ -86,61 +86,75 @@ $(document).ready(function(){
     var music_text = document.getElementById("music_text");
     var answercall_text = document.getElementById("answercall_text");
     
+    var highlightcolour = 'rgb(218,219,224)';
+    
     gold.onmouseover = function(){
         name_colour.innerHTML = 'Aurous Gold'
         watchdisplay.src = 'gold.png';
+        name_colour.style.backgroundColor = 'rgb(255,240,195)';
+        highlightcolour = 'rgb(255,240,195)';
     }
     
     silver.onmouseover = function(){
         name_colour.innerHTML = 'Argentum Silver';
         watchdisplay.src = 'silver.png';
+        name_colour.style.backgroundColor = 'rgb(218,219,224)';
+        highlightcolour = 'rgb(218,219,224)';
     }
     
     rose.onmouseover = function(){
         name_colour.innerHTML = 'Rose Gold';
         watchdisplay.src = 'rose.png';
+        name_colour.style.backgroundColor = 'rgb(254,200,190)';
+        highlightcolour = 'rgb(254,200,190)';
     }
     
     tracker_text.onmouseover = function(){
         watchscreen.src = 'tracker_screen.png';
-        tracker_text.style.color = 'orange';
+        tracker_text.style.backgroundColor = highlightcolour;
     }
     
     tracker_text.onmouseout = function(){
         watchscreen.src = '';
-        tracker_text.style.color = 'darkgray';
+        tracker_text.style.backgroundColor = 'white';
+        tracker_text.style.color = 'grey';
     }
     
     nav_text.onmouseover = function(){
         watchscreen.src = 'nav_screen.png';
-        nav_text.style.color = 'orange';
+        nav_text.style.backgroundColor = highlightcolour;
+        
     }
     
     nav_text.onmouseout = function(){
         watchscreen.src = '';
-        nav_text.style.color = 'darkgray';
+        nav_text.style.backgroundColor = 'white';
+        nav_text.style.color = 'grey';
     }
     
     music_text.onmouseover = function(){
         watchscreen.src = 'music_player.png';
-        music_text.style.color = 'orange';
+        music_text.style.backgroundColor = highlightcolour;
+        
     }
     
     music_text.onmouseout = function(){
         watchscreen.src = '';
-        music_text.style.color = 'darkgray';
+        music_text.style.backgroundColor = 'white';
+        music_text.style.color = 'grey';
     }
     
     answercall_text.onmouseover = function(){
         watchscreen.src = 'answer_call.png';
-        answercall_text.style.color = 'orange';
+        answercall_text.style.backgroundColor = highlightcolour;
+        
     }
     
     answercall_text.onmouseout = function(){
         watchscreen.src = '';
-        answercall_text.style.color = 'darkgray';
+        answercall_text.style.backgroundColor = 'white';
+        answercall_text.style.color = 'grey';
     }
-    
     
     
     

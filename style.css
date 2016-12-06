@@ -126,7 +126,7 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
+a.nonactive:hover {
     color: orange;
 }
 

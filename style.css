@@ -96,6 +96,7 @@ body {
     border: 5px orange solid;
     border-radius: 20px;
     overflow:scroll;
+    padding: 2%;
 }
 
 #watchdisplay{

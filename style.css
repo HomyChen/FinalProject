@@ -68,6 +68,7 @@ body {
     height: auto;
     width: 45%;
     margin-top: 30px;
+    margin-right: 3%;
 }
 
 #circle_col{
@@ -78,16 +79,16 @@ body {
     margin-right: 2%;
     display:inline-block;
     float: left;
-    background-color: white;
+    background-color: transparent;
     border: 5px orange solid;
     border-radius: 20px;
 }
 
 #infograph_desc{
     display:inline-block;
-    width: 70%;
+    width: 68%;
     height: 80%;
-    background-color: white;
+    background-color: transparent;
     margin-top: 5%;
     margin-bottom: 0vh;
     font-family: Calibri;

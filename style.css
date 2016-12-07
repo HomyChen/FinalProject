@@ -141,6 +141,10 @@ a.active:hover{
     color: black;
 }
 
+a.footerLinks:hover{
+    color: orange;
+}
+
 #custlink{
     position:absolute;
     top: 20%;

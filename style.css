@@ -27,14 +27,13 @@ body {
     background-size: cover;
     
 }
-
-#storeBut{
+.store_link{
     width: 200px;
     height: 60px;
     background-color: orange;
     text-align: center;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 20pt;
     text-align:center;
     padding-top: 30px;
     font-weight: bold;
@@ -44,6 +43,9 @@ body {
     border-radius: 20px;
     color: white;
     
+}
+.store_link:hover{
+    color:black;
 }
 
 #infograph1{

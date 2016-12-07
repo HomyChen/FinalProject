@@ -114,11 +114,14 @@ body {
     background-color: grey;
 }
 
-#socialMedia{
-    position: absolute;
-    right: 0px;    
-    bottom: 0px;
+#socialMedia{   
+    border-radius: 100px;
+    float:right;
+    width:5%;
+    margin-top: 15vh;
+    margin-right: 1%;
 }
+
 a:link {
     color: white;
     font-size: 25px;

@@ -130,11 +130,15 @@ body {
     transform: scale(1.1); 
 }
 
-a:link {
+a.footerLinks:link ,a.active:link ,a.nonactive:link {
     color: white;
     font-size: 25px;
     font-family: sans-serif;
     text-decoration: none;
+}
+
+a.footerLinks:visited,a.active:visited ,a.nonactive:visited {
+    color: white;
 }
 
 a.nonactive:hover {
@@ -343,6 +347,53 @@ li a{
     margin-left:2%;
     display: inline-block;
 }
+/*faq css*/
+#faqBody{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#faqCol{
+    position: relative;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 5vh;
+    height: auto;
+}
+
+#faqImage{
+    margin-top: 100px;
+    width: 99vw;
+    height: 50vh;
+    background-image:url(faqImage.jpg); 
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5vh;
+}
+
+#faq_text{
+    font-family: Calibri;
+    font-size: 16pt;
+}
+
+a.faqLink:link{
+    font-size: 16pt;
+    font-family: Calibri;
+    color: rgb(114, 137, 175);
+}
+
+a.faqLink:visited{
+    color: rgb(114, 137, 175);
+}
+
+a.faqLink:hover{
+    color:black;
+}
+/*end of faq css*/
 /*end of Iris' Stuff*/
 
 /* Homy's Stuff */

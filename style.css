@@ -48,6 +48,10 @@ body {
     color:black;
 }
 
+a.store_link:link{
+    text-decoration: none;
+}
+
 #infograph1{
     height: 100vh;
     width: 99vw;

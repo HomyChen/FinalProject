@@ -262,7 +262,7 @@ input[type=text]:focus {
     position: fixed;
     height: 10vh;
     width: 30vw;
-    top: -10vh;
+    top: -20vh;
     left: 35vw;
     background-color: white;
     border: 3px solid orange;

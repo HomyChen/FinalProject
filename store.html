@@ -18,7 +18,7 @@
             <div id='store_right'>
                 <img id='store_img' src='ar_silver.jpg'/>
                 <div id='store_price'>$99.99</div>
-                <button id='place_order'>Place Order</button>
+                <button id='place_order'>Order</button>
             </div>
             
         </div>
@@ -49,11 +49,76 @@
         </div>
         
         <div id='order_confirm'>
-            <div id='confirm_header'>Enter your details</div>
+            
+            <div id='confirm_left'>
+                <input id='store_email_input' placeholder="Email" class='store_input'/>
+                <input id='store_name_input' placeholder="Full Name" class='store_input'/>
+                <input id='store_address_input1' placeholder="Address Line 1 - Street Address, PO Box, Company" class='store_input'/>
+                <input id='store_address_input2' placeholder="Address Line 2 - Apartment, Suite, Unit, Floor" class='store_input'/>
+                <input id='store_city_input' placeholder="City" class='store_input'/>
+                <input id='store_state_input' placeholder="State/Province/Region" class='store_input'/>
+                <input id='store_zip_input' placeholder="Postal Code/ZIP" class='store_input'/>
+                <input id='store_country_input' placeholder="Country" class='store_input'/>
+                <input id='store_telephone_input' placeholder="Telephone Number" class='store_input'/>
+                
+                <div id='address_error' class='errors_msg'></div>
+                
+            </div>
+            
+            <div id='confirm_right'>
+                <div id='payment_header'>Enter your payment details</div>
+                <button id='mastercard' class='card_but'>MasterCard
+                    <img src='master_icon.png' class='card_icon'/>
+                </button>
+                <button id='visa' class='card_but'>Visa
+                    <img src='visa_icon.png' class='card_icon'/>
+                </button>
+                <input id='name_card' placeholder="Name on card" class='store_input'/>
+                <input id='card_num' placeholder="Card number" class='store_input'/>
+                <input id='card_exp' placeholder="Expiration date - mm/yy" class='store_input'/>
+                
+                <div id='payment_error' class='errors_msg'></div>
+                
+            </div>
+            
+            <div id='confirm_header'>Enter your shipping / billing address</div>
             <button id='order_exit'>X</button>
-            <button id='submit_order'>Submit Order</button>
+            <button id='order_next'>Next</button> 
         </div>
         
+        <div id='final_page'>
+            
+            <div id='final_left'>
+                <div id='order_overview'>Please review your order</div>
+                
+                <div id='over_name' class='over_head'>Name</div>
+                <div id='inputted_name' class='inputted'></div>
+                
+                <div id='over_email' class='over_head'>Email</div>
+                <div id='inputted_email' class='inputted'></div>
+                
+                <div id='over_address' class='over_head'>Shipping and Billing Address</div>
+                <div id='inputted_address' class='inputted'></div>
+                <button id='over_back' class='over_but'>Back</button>
+                
+            </div>
+            
+            <div id='final_right'>
+                <div id='order_item'>
+                    <img id='order_item_img' src='ar_silver.jpg'/>
+                    <div id='order_item_name'>Argentum Silver LookFit</div>
+                    <div id='order_price'>$99.99</div>
+                </div>
+                
+                <button id='order_submit' class='over_but'>Submit Order</button>
+            </div>
+            
+        </div>
+        
+        <div id='order_done'>
+            <div id='order_done_text'>Thank you for your order! An email has been sent to your address with an overview and the tracking information for your order.</div>
+            <a href="index.html" id='ok_button'>OK</a>
+        </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         

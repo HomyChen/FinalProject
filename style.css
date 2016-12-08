@@ -607,7 +607,7 @@ a.faqLink:hover{
     color: rgb(114, 137, 175);
 }
 
-#submit_order {
+#order_next {
     position: absolute;
     margin-top: 47%;
     margin-left: 70%;
@@ -631,7 +631,224 @@ a.faqLink:hover{
     font-size: 20pt;
 }
 
+#confirm_left {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
 
+#confirm_right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+}
+
+#payment_header {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: Calibri;
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(114, 137, 175);
+}
+
+#same_address {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15%;
+    background-color: orange;
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 5px;
+}
+
+.store_input {
+    display: block;
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 70%;
+    font-family: Calibri;
+    font-size: 14pt;
+    border: 1px black solid;
+}
+
+#store_email_input {
+    margin-top: 20%;
+}
+
+.card_but {
+    margin-top: 20%;
+    margin-left: 15%;
+    width: 30%;
+    height:auto;
+    font-family: Calibri;
+    font-size: 12pt;
+    background-color: white;
+    border-radius: 10px;
+    color: dimgrey;
+}
+
+#name_card {
+    margin-top: 10%;
+}
+
+
+.card_icon {
+    width: 100%;
+}
+
+.errors_msg {
+    background-color: white;
+    width: 70%;
+    height: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: red;
+    font-family: Calibri;
+    font-size: 14pt;
+}
+
+#final_page {
+    position: fixed;
+    width: 70vw;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-left: 100vw;
+    border: 2px orange solid;
+    background-color: white;
+}
+
+#final_left {
+    position: absolute;
+    width: 35vw;
+    height: 70vh;
+}
+
+#final_right {
+    position: absolute;
+    width: 35vw;
+    height: 70vh;
+    margin-left: 50%;
+}
+
+#order_overview {
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: 2vw;
+    font-family: Calibri;
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(114, 137, 175);
+}
+
+#order_item {
+    position: absolute;
+    width: 31vw;
+    height: 20vh;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    border: 2px dimgrey solid;
+}
+
+#order_item_name {
+    position: absolute;
+    margin-left: 12vw;
+    margin-top: 1vh;
+    font-family: Calibri;
+    font-size: 14pt;
+}
+
+#order_price {
+    position: absolute;
+    margin-left: 12vw;
+    margin-top: 12vh;
+    font-family: Calibri;
+    color: rgb(114, 137, 175);
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#order_item_img {
+    position: absolute;
+    width: 30%;
+    height: auto;
+}
+
+.over_head {
+    margin-top: 7vh;
+    font-family: Calibri;
+    font-size: 16pt;
+    color: dimgrey;
+    margin-left: 3vw;
+    font-weight: bold;
+}
+
+.inputted {
+    position: absolute;
+    width: 28vw;
+    height: 6vh;
+    margin-left: 4vw;
+    font-family: Calibri;
+    font-size: 14pt;
+}
+
+#inputted_address {
+    height: 27vh;
+}
+
+.over_but {
+    position: absolute;
+    background-color: orange;
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20pt;
+    border-radius: 12px;
+}
+
+#over_back {
+    margin-top: 30vh;
+    margin-left: 1vw;
+}
+
+#order_submit {
+    margin-top: 62vh;
+    margin-left: 23vw;
+}
+
+#order_done {
+    position: fixed;
+    margin-left: 100vw;
+    margin-top: 30vh;
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    background-color: white;
+    border: 2px orange solid;
+}
+
+#order_done_text {
+    position: absolute;
+    margin-top: 10vh;
+    font-family: Calibri;
+    font-size: 20px;
+    color: dimgrey;
+}
+
+#ok_button {
+    position: absolute;
+    margin-top: 30vh;
+    background-color: orange;
+    border-radius: 5px;
+    width: 3vw;
+    color: white;
+    font-size: 20pt;
+    font-family: Calibri;
+}
 /* End of Homy's Stuff */
 
 /*contact info bottom page*/

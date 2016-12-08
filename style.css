@@ -86,7 +86,6 @@ a.store_link:link{
     display:inline-block;
     float: left;
     background-color: transparent;
-    border: 5px orange solid;
     border-radius: 20px;
 }
 
@@ -863,6 +862,8 @@ a.faqLink:hover{
     color: white;
     font-size: 20pt;
     font-family: Calibri;
+    text-decoration: none;
+
 }
 /* End of Homy's Stuff */
 

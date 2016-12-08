@@ -86,7 +86,6 @@ a.store_link:link{
     display:inline-block;
     float: left;
     background-color: transparent;
-    border: 5px orange solid;
     border-radius: 20px;
 }
 

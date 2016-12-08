@@ -396,6 +396,21 @@ a.faqLink:hover{
     color:black;
 }
 /*end of faq css*/
+/*start of about css*/
+#aboutImage{
+    margin-top: 100px;
+    width: 99vw;
+    height: 50vh;
+    background-image:url(aboutImage.jpg); 
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5vh;  
+}
+
+/*end of about css*/
 /*end of Iris' Stuff*/
 
 /* Homy's Stuff */

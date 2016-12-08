@@ -72,16 +72,13 @@ $(document).ready(function(){
     var address_error = document.getElementById("address_error");
     var payment_error = document.getElementById("payment_error");
     
-    
-    
-    
-    
     var email_check = /^[a-zA-Z0-9\-_\.]{3,20}@[a-zA-Z0-9\-]{3,20}\.(com|ca|info|org)$/;
     var num_check = /^[0-9]{1,100}$/;
     var alpha_check = /^[a-zA-Z' ]{1,100}$/;
     var alphanum_check = /^[a-zA-Z0-9'. ]{1,200}$/;
     
     var error_check = 'True';
+    var card_check = 'True';
     
     visa.onclick = function(){
         visa.style.backgroundColor = 'orange';
@@ -89,6 +86,7 @@ $(document).ready(function(){
         mastercard.style.backgroundColor = 'white';
         mastercard.style.color = 'dimgrey';
         error_check = 'False';
+        card_check = 'False';
     }
     
     mastercard.onclick = function(){
@@ -97,6 +95,7 @@ $(document).ready(function(){
         visa.style.backgroundColor = 'white';
         visa.style.color = 'dimgrey';
         error_check = 'False';
+        card_check = 'False';
     }
     
     store_email_input.onkeyup = function(){
@@ -293,7 +292,7 @@ $(document).ready(function(){
     var order_item_img = document.getElementById("order_item_img");
     
     order_next.onclick = function(){
-        if (error_check == 'True' || store_email_input.value == '' || store_name_input.value == '' || store_address_input1.value == '' || store_city_input.value == '' || store_state_input.value == '' || store_zip_input.value == '' || store_country_input.value == '' || name_card.value == '' || card_num.value == '' || card_exp.value == ''){
+        if (error_check == 'True' || card_check == 'True' || store_email_input.value == '' || store_name_input.value == '' || store_address_input1.value == '' || store_city_input.value == '' || store_state_input.value == '' || store_zip_input.value == '' || store_country_input.value == '' || name_card.value == '' || card_num.value == '' || card_exp.value == ''){
             payment_error.innerHTML = 'Please ensure the form is filled out properly.';
         }else{
             final_page.style.marginLeft = '15vw';

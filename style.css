@@ -258,7 +258,7 @@ input[type=text]:focus {
     margin-bottom: 2vh;
 }
 
-#thankyou{
+#thankyou {
     position: fixed;
     height: 10vh;
     width: 30vw;
@@ -483,6 +483,154 @@ a.faqLink:hover{
     width: 14%;
     height: auto;
 }
+
+#store_display {
+    position: absolute;
+    margin-top: 50vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#store_background {
+    position: absolute;
+    background-image: url(stretch1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+#store_header {
+    font-family: Verdana;
+    font-size: 25pt;
+    color: rgb(114, 137, 175);
+    text-align: center;
+    margin-top: 10vh;
+}
+
+#store_left {
+    position: absolute;
+    width: 49vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#store_right {
+    position: absolute;
+    width: 49vw;
+    height: 100vh;
+    margin-left: 49vw;
+    text-align: center;
+}
+
+#store_select_color {
+    font-family: Calibri;
+    font-size: 23pt;
+    color: rgb(114, 137, 175);
+    margin-top: 5%;
+}
+
+.color_select {
+    text-align: center;
+    font-family: Calibri;
+    font-size: 20pt;
+    color: grey;
+    margin-top: 10%;
+    border-radius: 25px;
+    width: 50%;
+    
+}
+
+#store_gold {
+    background-color: white; 
+}
+
+#store_silver {
+    background-color: rgb(218, 219, 224);
+}
+
+#store_rose {
+    background-color: white;
+}
+
+#store_img {
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#store_price {
+    font-family: Calibri;
+    font-size: 30pt;
+    color: rgb(114, 137, 175);
+}
+
+#place_order {
+    background-color: orange;
+    color: white;
+    width: 30%;
+    height: 8%;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20pt;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+#footer_store {
+    margin-top: 160vh;
+    position: absolute;
+    width: 100vw;
+    height: 30vh;
+    background-color: grey;
+}
+
+#order_confirm {
+    position: fixed;
+    width: 70vw;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-left: 100vw;
+    border: 2px orange solid;
+    background-color: white;
+}
+
+#confirm_header {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-family: Calibri;
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(114, 137, 175);
+}
+
+#submit_order {
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 70%;
+    background-color: orange;
+    color: white;
+    width: 20%;
+    height: 8%;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20pt;
+    border-radius: 15px;
+}
+
+#order_exit {
+    position: absolute;
+    margin-left: 97%;
+    background-color: orange;
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
 
 /* End of Homy's Stuff */
 

@@ -37,7 +37,7 @@ $(document).ready(function(){
     }
     circle3But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "<div id='desc_title'>Fitness Tracking</div><div id='desc_text'> <p>The LookFit watch take in your physical parameters such as height, weight and gender. As you wear it, it will count the number of steps you have taken throughout the day. <p>It display information such as the calories you have burned so far in your exercise, and your heartrate. <p>LookFit is able to predict what activity you are doing (for example, swimming or jogging) based on the data it receives.</div>";
+            "<div id='desc_title'>Fitness Tracking</div><div id='desctext_with_pics'> <p>The LookFit watch take in your physical parameters such as height, weight and gender. As you wear it, it will count the number of steps you have taken throughout the day. <p>It display information such as the calories you have burned so far in your exercise, and your heartrate. <p>LookFit is able to predict what activity you are doing (for example, swimming or jogging) based on the data it receives.</div><img class='infograph_app' src='fitness_app.png' />";
         circle3But.src="fitness_tracking_over.png";
     }
     

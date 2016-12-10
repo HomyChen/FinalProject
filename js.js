@@ -46,7 +46,7 @@ $(document).ready(function(){
     }
     circle4But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "<div id='desc_title'>Navigation</div><div id='desc_text'><p>The LookFit will utilize GPS navigation and display the directions you need to go to get to your destination. <p> Whether you are jogging or cycling, the LookFit GPS system can store and calculate the calories that you would burn if you took a certain route. <p> With this system, you can search for a nearby route you would like to take, based on your fitness goals for the day. Alternatively, you can also customize your own route.</div>";
+            "<div id='desc_title'>Navigation</div><div id='desctext_with_pics'><p>The LookFit will utilize GPS navigation and display the directions you need to go to get to your destination. <p> Whether you are jogging or cycling, the LookFit GPS system can store and calculate the calories that you would burn if you took a certain route. <p> With this system, you can search for a nearby route you would like to take, based on your fitness goals for the day. Alternatively, you can also customize your own route.</div><img class='infograph_app' src='navigation_app.png' />";
         circle4But.src="navigation_over.png";
     }
     
@@ -56,7 +56,7 @@ $(document).ready(function(){
     
     circle5But.onmouseover = function(){
         infoDesc.innerHTML = 
-            "<div id='desc_title'>Activity Log</div><div id='desc_text'><p>The LookFit activity log keep tracks of your physical activity progress. <p>As you do an exercise, for example jogging, the LookFit can save all the fitness data it has collected and store it in the activity log <p>The activity log can then be accessed from your smart phone, and as the months go by, you can keep track of the improvements you have accomplished over time. </div>";
+            "<div id='desc_title'>Activity Log</div><div id='desctext_with_pics'><p>The LookFit activity log keep tracks of your physical activity progress. <p>As you do an exercise, for example jogging, the LookFit can save all the fitness data it has collected and store it in the activity log <p>The activity log can then be accessed from your smart phone, and as the months go by, you can keep track of the improvements you have accomplished over time. </div><img class='infograph_app' src='activity_app.png' />";
         circle5But.src="calendar_over.png";
     }
     circle5But.onmouseout = function(){

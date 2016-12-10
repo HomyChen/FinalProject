@@ -317,6 +317,21 @@ li a{
     background-color: orange;
 }
 /*infograph titles*, subtitles, desc text,  profile picture*/
+#desctext_with_pics{
+    position: absolute;
+    width: 40vw;
+    display: inline-block;
+    margin-bottom: 20vh;
+    
+}
+
+.infograph_app{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    display: inline-block;
+    margin-left: 42vw;
+}
 #desc_title{
     font-family: Verdana;
     font-size: 25pt;
